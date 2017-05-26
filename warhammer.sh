@@ -6,4 +6,4 @@ cp -r .ssh/ ~vds/
 chown vds.vds ~vds/.ssh/
 sudo apt update
 sudo apt full-upgrade -y
-apt install -y libvirt-bin qemu-kvm virt-manager git bzr byobu 
+apt install -y libvirt-bin qemu-kvm git bzr byobu bridge-utils qemu-utils
